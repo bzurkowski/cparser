@@ -1,0 +1,34 @@
+int n = 0;
+int k = 2;
+int k = 2;
+int m = 6;
+
+string greet(string name)
+{
+    int g = 8;
+
+    string str = "Hey, " + name;
+
+    m = 0;
+    return str;
+}
+
+string greetMe()
+{
+    return greet("you");
+}
+
+
+int inc(int n)
+{
+    return n+1;
+}
+
+int inc5(int n) {
+    return inc(inc(inc(inc(inc(n)))));
+}
+
+print greet("5", 2);
+print greetMe();
+print inc(1);
+print inc5(10);
